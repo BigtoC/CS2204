@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon"/> 
+	<meta name="author" content="Chan Tai To sid:54791401" />
+	<meta name="description" content="CS2204 CW1" />
+	<meta name="keywords" content="cs2204" />
+	<link rel="stylesheet" href="../css/home.css" type="text/css" media="all" charset="utf-8"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">			
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>		<!-- for using google material design, I need to use these script source -->
+	
+	<title>Home</title>
+</head>
+
+<body>
+<div id="h_header" onload="slide()">
+	<header>
+		<img src="../images/blue.png" id="h_spotlight" alt="header spotlight" > 
+	</header>	
+	<img src="../images/casablanca.jpg" width="100%">
+</div>
+
+<br/>
+<p><hr width=10% size=2 color=#3F51B5></p>
+
+<div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--3-col" id="h_table">
+	<h2 id="h_title2">SEARCH BY TYPE</h2>
+	<table>
+		<thead>
+			<th>By Country</th>
+			<th>Drama</th>
+			<th>Action</th>
+			<th>Horror</th>
+			<th>Romance</th>
+		</thead>
+		<tbody id="tbody">
+			<tr>
+				<td id="h_1stcol">China</td>
+				<td onclick="ranselect();">250</td>
+				<td onclick="ranselect();">50</td>
+				<td onclick="ranselect();" onclick="ranselect();">30</td>
+				<td onclick="ranselect();">178</td>
+			</tr>
+			<tr>
+				<td id="h_1stcol">UK</td>
+				<td onclick="ranselect();">78</td>
+				<td onclick="ranselect();">45</td>
+				<td onclick="ranselect();">129</td>
+				<td onclick="ranselect();">48</td>
+			</tr>
+			<tr>
+				<td id="h_1stcol">Hong Kong</td>
+				<td onclick="ranselect();">43</td>
+				<td onclick="ranselect();">178</td>
+				<td onclick="ranselect();">341</td>
+				<td onclick="ranselect();">50</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<br/><br/>
+<hr width=10% size=2 color=#3F51B5>
+
+<div id="h_watch">
+	<h2 id="h_title3">MUST WATCH</h2>
+	<div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--3-col" id="h_js">
+		<p id="h_1"><b>Title: </b>Casablanca</p>
+		<p id="h_2"><b>Desc: </b>Casablanca is a 1942 American romantic drama film</p>
+		<p id="h_3"><b>Director: </b>Michael Curtiz</p>
+		<p id="h_4"><b>Cast: </b>Humphrey Bogart, Ingrid Bergmen</p>
+		<p id="h_5"><b>Plot: </b>Casablanca is a 1942 American romantic drama film directed by Michael Curtiz and based on Murray Burnett and Joan Alison's un-produced stage play Everybody Comes to Rick's. Set during World War II, it focuses on a man torn between, in the words of one character, 'love and virtue'. </p>
+	</div>
+	<div id="h_w1">
+		<div class="demo-card-square mdl-card mdl-shadow--2dp" id="h_left">
+			<div class="mdl-card__title mdl-card--expand" id="bigbuck" onclick="location='../html/bigbuck.html'">
+				<h2 class="mdl-card__title-text">Big Buck Bunny</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				a short computer-animated comedy film
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="bigbuck.html">
+					WATCH VIDEO
+				</a>
+			</div>
+		</div>
+	
+		<div class="demo-card-square mdl-card mdl-shadow--2dp" id="h_right">
+			<div class="mdl-card__title mdl-card--expand" id="casablanca" onclick="location='../html/casablanca.html'">
+				<h2 class="mdl-card__title-text">Casablanca</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				the Morocco romance
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="casablanca.html">
+					WATCH VIDEO
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="h_w2">
+		<div class="demo-card-square mdl-card mdl-shadow--2dp" id="h_left">
+			<div class="mdl-card__title mdl-card--expand" id="cakemaking" onclick="location='../html/cakemaking.html'">
+				<h2 class="mdl-card__title-text">Cakemaking</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				how to make cakes
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="cakemaking.html">
+					WATCH VIDEO
+				</a>
+			</div>
+		</div>
+	
+		<div class="demo-card-square mdl-card mdl-shadow--2dp" id="h_right">
+			<div class="mdl-card__title mdl-card--expand" id="nature" onclick="location='../html/nature.html'">
+				<h2 class="mdl-card__title-text">Nature</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				have a look in our nature
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="nature.html">
+					WATCH VIDEO
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div id="h_w3">
+		<div class="demo-card-square mdl-card mdl-shadow--2dp" id="h_left">
+			<div class="mdl-card__title mdl-card--expand" id="wildlife" onclick="location='../html/wildlife.html'">
+				<h2 class="mdl-card__title-text">Wildlife</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				enjoy the spectacular views of running wild lives
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="wildlife.html">
+					WATCH VIDEO
+				</a>
+			</div>
+		</div>
+	
+		<div class="demo-card-square mdl-card mdl-shadow--2dp" id="h_right">
+			<div class="mdl-card__title mdl-card--expand" id="wonders" onclick="location='../html/wonders.html'">
+				<h2 class="mdl-card__title-text">Wonders</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				see the wonders of wild life
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+				<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="wonders.html">
+					WATCH VIDEO
+				</a>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<br/><br/>
+<div id="h_footer">
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">@Copyright 2017 - all right reserved</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="home.html"><b>Home</b></a></li>
+      <li><a href="design.html" target=_blank><b>Design</b></a></li>
+    </ul>
+  </div>
+</footer>
+</div>
+
+<script type="text/javascript" src="../js/cs2204.js"></script>
+<script type="text/javascript" src="../js/home.js"></script>
+</body>
+
+</html>

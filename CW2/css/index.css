@@ -1,0 +1,38 @@
+body{
+	text-align:center;
+	font-size:16px;
+	background-color:#eee!important;
+}
+
+header{
+	background-color:#3F51B5!important;
+}
+
+#i_title{
+	color:#fff!important;
+}
+
+#i_video{
+	position:relative; 
+	z-index:1;
+}
+
+#i_login{ 
+	position:absolute;
+	z-index:9999;
+	left:37%;
+	bottom:1%;
+}
+
+a{
+	transition:color 1s linear;
+}
+
+a:hover{
+	font-size:22px;
+	color:#304FFE!important;
+}
+
+a:link{
+	text-decoration:none;
+}

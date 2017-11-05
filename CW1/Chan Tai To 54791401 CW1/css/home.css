@@ -1,0 +1,112 @@
+﻿body {
+	text-align:center;
+	font-size:16px;
+	background-color:#eee;
+}
+
+header{
+	background-color:#3F51B5;
+}
+
+hr{
+	margin:0 auto!important;
+}
+
+table{
+	margin:0 auto;
+	height:120px;
+}
+
+th{
+	color:#ffffff;
+	background-color:#757575;
+	width:200px;
+}
+
+a:hover{
+	font-size:22px;
+	color:#304FFE!important;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+.demo-card-square.mdl-card {
+	width: 320px;
+	height: 300px;
+	text-align:left;
+}
+
+.demo-card-square > .mdl-card__title {
+	width:320px;
+	height;240px;
+	color: #fff;
+}
+
+#h_table{
+	width:85%;
+	height:210px;
+	margin:0 auto;
+}
+
+#h_title1{
+	color:#F5F5F5;
+}
+
+#h_title2,#h_title3{
+	color:#212121;
+}
+
+#h_1stcol{
+	text-align:left;
+}
+
+#bigbuck{
+	background:url('../images/bigbuck.png') bottom right 15% no-repeat #fff;
+}
+
+#casablanca{
+	background:url('../images/casablanca.png') bottom right 15% no-repeat #fff;
+}
+
+#cakemaking{
+	background:url('../images/cakemaking.png') bottom right 15% no-repeat #fff;
+}
+
+#nature{
+	background:url('../images/nature.png') bottom right 15% no-repeat #fff;
+}
+
+#wildlife{
+	background:url('../images/wildlife.png') bottom right 15% no-repeat #fff;
+}
+
+#wonders{
+	background:url('../images/wonders.png') bottom right 15% no-repeat #fff;
+}
+
+
+#h_w2{
+	position:relative;
+	top:320px;
+}
+
+#h_w3{
+	position:relative;
+	top:640px;
+}
+
+#h_left{
+	position:absolute;
+	left:20%;
+}
+
+#h_right{
+	position:absolute;
+	right:20%;
+}
+
+#h_watch{
+	height:1010px;
+}

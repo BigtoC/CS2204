@@ -1,0 +1,41 @@
+body{
+	text-align:center;
+	font-size:16px;
+	background-color:#F5F5F5;
+}
+
+header{
+	background-color:#3F51B5;
+}
+
+hr{
+	margin:0 auto!important;
+}
+
+#d_title{
+	color:#F5F5F5;
+}
+
+a:hover{
+	font-size:22px;
+	color:#304FFE!important;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+#d_content_block{
+	width:60%;
+	margin:0 auto;
+	padding:20px 15px;
+	text-align:left;
+}
+
+p{
+	font-size:18px!important;
+}
+
+span{
+	font-size:16px;
+}

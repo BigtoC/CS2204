@@ -1,0 +1,99 @@
+#p_body{
+	text-align:center;
+	font-size:16px;
+	background-color:#eee;
+}
+
+header{
+	background-color:#3F51B5;
+}
+
+hr{
+	margin:0 auto!important;
+}
+
+#p_title{
+	color:#F5F5F5;
+}
+
+#p_video{
+	margin:0 auto;
+	width:60%;
+}
+
+#p_content_block{
+	width:60%;
+	margin:0 auto;
+}
+
+#p_content{
+	width:95%;
+	margin:0 auto;
+	line-height:22px;
+	word-wrap:break-word; 
+	word-break:break-all;
+	text-align:left;
+}
+
+a:hover{
+	font-size:22px;
+	color:#304FFE!important;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+.demo-card-image.mdl-card {
+	width: 256px;
+	height: 256px;
+	text-align:left;
+}
+
+.demo-card-image > .mdl-card__title {
+	height: 50px;
+	padding: 16px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#p_recom_in{
+	width:90%;
+	margin:0 auto;
+}
+
+#p_recom{
+	width:60%;
+	margin:0 auto;
+	text-align:center;
+}
+
+#p_recom_title{
+	color:#212121;
+	line-height:50px;
+}
+
+#p_cakemaking{
+	background: url('../images/cakemaking.png') bottom / cover;
+}
+
+#p_casablanca{
+	background: url('../images/casablanca.png') bottom / cover;
+}
+
+#p_nature{
+	background: url('../images/nature.png') bottom / cover;
+}
+
+#p_wildlife{
+	background: url('../images/wildlife.png') bottom / cover;
+}
+
+#p_wonders{
+	background: url('../images/wonders.png') bottom / cover;
+}
+
+#p_bigbuck{
+	background: url('../images/bigbuck.png') bottom / cover;
+}
